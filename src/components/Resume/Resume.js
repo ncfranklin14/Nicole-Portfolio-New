@@ -7,12 +7,12 @@ export default function Resume() {
     return (
         <section className="resume">
             <h2 className="resume-title">Experience</h2>
+            <a className='linkToRes' href={resume} download="Resume.pdf">Download Resume </a>
             <div className='resumeContainer'>
                 <div className='skills'>
                     JavaScript || CSS || HTML5 || JQuery || Bootstrap || Handlebars || ReactJS || NodeJS || Express || MySQL/Sequelize || MongoDB/Mongoose
                 </div>
             </div>
-            <a className='linkToRes' href={resume} download="Resume.pdf">Download Resume </a>
         </section >
     );
 }

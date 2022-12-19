@@ -3,7 +3,6 @@ import Footer from './Footer';
 import Header from './Header';
 import About from './About/About';
 import Work from './Work/Work';
-import Contact from './Contact/Contact';
 import Resume from './Resume/Resume';
 
 
@@ -15,6 +14,7 @@ export default function PortfolioContainer() {
       <Header />
       <About />
       <Work />
+      <Resume />
       <Footer />
     </div>
   );
