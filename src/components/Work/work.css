@@ -1,0 +1,89 @@
+.card-img-top {
+    /* border-radius: 15px; */
+    height: 47%;
+    margin-bottom: 10px;
+}
+.workTitle1 {
+    height: 40px;
+    width: 95%;
+    margin-right: 5%;
+    border: 5px solid #266150;
+    background-color:#266150;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-bottom: 6%;
+}
+.workTitle {
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 90%;
+    padding: 10px 0;
+    border: 5px solid #eaeaea !important;
+    border-radius: 10px;
+}
+
+.myProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10% !important;
+    margin-right: 15% !important;
+    margin-top: 30px !important;
+}
+
+.card-body {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+
+@media screen and (max-width: 375px) {
+    .myProjects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 5% !important;
+        margin-right: 15% !important;
+    }
+
+    .workTitle1 {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+        width: 95%;
+        height: 50px;
+        margin-left: 1%;
+        margin-right: 10%;
+    }
+
+    .workTitle {
+        font-size: 30px;
+        padding-top: 1px;
+    }
+
+    .cards {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 90%;
+        padding: 10px 0;
+    }
+
+    .card-body {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+}

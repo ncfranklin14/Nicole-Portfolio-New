@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+
+.portfolio {
+    background-color: #40916c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+Header {
+    padding: 20px 0px;
+    background-color: #78c6a3;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  Header h1 {
+    background-color: #139b74;
+    font-size: 50px;
+    padding: 5px 80px 10px 100px;
+    padding-left: 50px;
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 450px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.nav-item {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
+.nav{
+    background-color: #78c6a3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    align-items: center;
+    padding-right: 30px;
+}
+.contactIcon {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
+}
+
+.footer {
+    padding: 8rem !important;
+	animation: gradient 15s ease infinite;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+    height: 30px;
+    background-color: #40916c !important;
+}
+.icon .email {
+    width:700px !important;
+    height: 20px !important;
+}
+.icon .linkedIn{
+    width:700px !important;
+    height: 20px !important;
+}
+
+.icon .git{
+    width:700px !important;
+    height: 20px !important;
+}
+
+@media screen and (max-width: 390px) {
+.footer {
+    background-color: #40916c !important;
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+.portfolio {
+    background-color: #40916c;
+    
+}
+
+.nav{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+
+Header {
+    background-color: #78c6a3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  Header h1 {
+    background-color: #266150;
+    font-size: 30px;
+    padding: 10px 50px 10px 150px;
+    color: white;
+    border-radius: 0px 7px 7px 0px;
+  }
+
+}
+
