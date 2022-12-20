@@ -88,30 +88,25 @@ Header {
     
 }
 
-.nav{
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: space-between !important;
-    align-items: center;
-    width: 100%;
-    position: relative;
-}
-
-
 Header {
     background-color: #78c6a3;
-    width: 100%;
+    width: 100vw;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
     position: relative;
   }
   
   Header h1 {
+    display: flex;
+    flex-direction: row;
     background-color: #266150;
-    font-size: 30px;
-    padding: 10px 50px 10px 150px;
+    font-size: 20px;
+    padding: 10px 50px 10px 200px;
     color: white;
-    border-radius: 0px 7px 7px 0px;
+    width: 300px;
   }
 
 }
