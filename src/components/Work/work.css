@@ -4,9 +4,12 @@
     margin-bottom: 10px;
 }
 .workTitle1 {
-    height: 40px;
-    width: 95%;
-    margin-right: 5%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 55rem;
+    height: 2rem;
     border: 5px solid #266150;
     background-color:#266150;
     border-radius: 10px;
@@ -35,9 +38,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: 10% !important;
-    margin-right: 15% !important;
-    margin-top: 30px !important;
 }
 
 .card-body {

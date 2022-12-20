@@ -24,31 +24,35 @@ export default function Work() {
         image: Planter,
         description: 'Communal blog forum used to crowdsource names for plants',
         tools: 'Handlebars, MySQL, Cloudinary, JavaScript, NodeJS',
-        deployed:'https://secret-waters-02737.herokuapp.com/login',
-        github:'https://github.com/ncfranklin14/the-planter'
+        deployed: 'https://secret-waters-02737.herokuapp.com/login',
+        github: 'https://github.com/ncfranklin14/the-planter'
     },
     {
         title: 'Workday Planner',
         image: Planner,
         description: 'App used to add events to the daily planner and help manage time effectively',
         tools: 'HTLM5, JavaScript, CSS',
-        deployed:'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
-        github:'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
+        deployed: 'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
+        github: 'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
     },
     {
         title: 'Movement Mapper',
         image: MovementMapper,
         description: 'Build and track fitness challenges',
         tools: 'React, Express, MySQL, bycrypt',
-        deployed:'https://movementmapper-front.herokuapp.com/',
-        github:'https://github.com/saghar-b/Movement-Mapper-Frontend'
+        deployed: 'https://movementmapper-front.herokuapp.com/',
+        github: 'https://github.com/saghar-b/Movement-Mapper-Frontend'
     }]
     return (
         <Container className='myProjects'>
-            <div className='workTitle1'>
-            <h1 className= 'workTitle'>Projects</h1>
-            </div>
-            <Row xs={1} md={2} className="g-4">
+            <Row>
+                <Col>
+                    <div className='workTitle1'>
+                        <h1 className='workTitle'>Projects</h1>
+                    </div>
+                </Col>
+            </Row>
+            <Row xs={12} md={8} className="g-6">
                 {projects.map((proj) => (
                     <Col>
                         <Card className='cards'>

@@ -2,8 +2,9 @@
     background-color: #40916c;
     margin-bottom: 30px;
 }
-.profile-pic{
-    width:400px;
+
+.profile-pic {
+    width: 400px;
     border-radius: 50%;
     margin-left: 36%;
 }
@@ -15,15 +16,15 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-    margin: 2%;
     margin-top: 30px;
     text-decoration: underline;
     border: 5px solid #266150;
-    background-color:#266150;
+    background-color: #266150;
     border-radius: 10px;
-    width: 75%;
-    margin-left: 12%;
+    width: 55rem;
+    margin-left: 17%;
 }
+
 .par {
     justify-content: center;
     margin-top: 50px;
@@ -56,8 +57,8 @@
         height: 70px;
     }
 
-    .profile-pic{
-        width:200px;
+    .profile-pic {
+        width: 200px;
         border-radius: 50%;
         margin-left: 20%;
         margin-top: 5%;
