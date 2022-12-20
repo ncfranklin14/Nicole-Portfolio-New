@@ -8,7 +8,6 @@
     flex-direction: row;
     justify-content: center;
     margin-left: 13%;
-    margin-bottom: 5%;
     margin-top: 5%;
 }
 
@@ -36,28 +35,8 @@
     padding-top: 10px;
 }
 
-.linkToRes {
-    margin-left: 41%;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 10px;
-    background-color:#266150;
-    border: 2px solid white;
-    padding: 16px 32px;
-    opacity: 1;
-    transition: 0.3s;
-    color: white;
-    font-size: 20px;
-}
-
-.linkToRes:hover {opacity: 0.6}
 
 @media screen and (max-width: 375px) {
-
-    .linkToRes {
-        padding: 15px;
-        margin-left: 22%;
-    }
 
     .resume-title {
         font-size: 35px;

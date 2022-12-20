@@ -8,6 +8,7 @@ import Socializer from '../../assets/Socializer.png'
 import Planter from '../../assets/Planter.png'
 import Planner from '../../assets/Planner.png'
 import MovementMapper from "../../assets/MovementMapper.png"
+import { AiOutlineGithub, AiOutlineDesktop } from "react-icons/ai";
 
 export default function Work() {
     const projects = [{
@@ -65,8 +66,8 @@ export default function Work() {
                                 <Card.Text>
                                     {proj.tools}
                                 </Card.Text>
-                                <Card.Link href={proj.deployed}>Deployed</Card.Link>
-                                <Card.Link href={proj.github}>Github</Card.Link>
+                                <Card.Link className="projicon-links" href={proj.deployed}><AiOutlineDesktop /></Card.Link>
+                                <Card.Link  className="projicon-links" href={proj.github}><AiOutlineGithub /></Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>

@@ -1,5 +1,6 @@
 import React from 'react';
-import { AiOutlineGithub, AiOutlineMail, AiOutlineLinkedin } from "react-icons/ai";
+import resume from '../assets/N_Franklin_Resume2022.pdf';
+import { AiOutlineGithub, AiOutlineMail, AiOutlineLinkedin, AiOutlineSolution } from "react-icons/ai";
 
 const Footer = () => (
   <footer className="footer">
@@ -13,6 +14,9 @@ const Footer = () => (
       <div className="icon-links">
         <a href="https://www.linkedin.com/in/nicole-franklin-8a6001a1/" target="_blank"><AiOutlineLinkedin /></a>
       </div>
+      <div className="icon-links">
+      <a href={resume} target="_blank" rel="noreferrer noopener"><AiOutlineSolution /></a>
+    </div>
     </div>
   </footer>
 );

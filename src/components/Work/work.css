@@ -1,7 +1,9 @@
 .card-img-top {
     /* border-radius: 15px; */
-    height: 47%;
+    height: 7rem !important;
     margin-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 .workTitle1 {
     justify-content: center;
@@ -15,13 +17,14 @@
     border-radius: 10px;
     box-sizing: border-box;
     padding-bottom: 6%;
+    margin-bottom: 50px;
 }
 .workTitle {
     text-decoration: underline;
     justify-content: center;
     text-align: center;
     font-size: 30px;
-    padding-top: 15px;
+    padding-top: 6px;
 }
 
 .cards {
@@ -32,18 +35,37 @@
     padding: 10px 0;
     border: 5px solid #eaeaea !important;
     border-radius: 10px;
+    background-color: rgba(170, 170, 170, 0.49) !important;
+    font-family: 'Jura', sans-serif !important;
+    font-size: small;
 }
 
 .myProjects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 .card-body {
     position: relative;
     bottom: 0;
     left: 0;
+}
+
+.projicon-links {
+    text-align: center;
+}
+
+.cards a:hover {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.cards a {
+    font-size: 20px;
+    color: black;
+    padding: 2px;
 }
 
 
