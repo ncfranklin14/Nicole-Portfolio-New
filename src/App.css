@@ -50,18 +50,29 @@ Header {
     height: 30px;
     background-color: #40916c !important;
 }
-.icon .email {
-    width:700px !important;
-    height: 20px !important;
-}
-.icon .linkedIn{
-    width:700px !important;
-    height: 20px !important;
+
+#contact-links {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
 }
 
-.icon .git{
-    width:700px !important;
-    height: 20px !important;
+#contact-links a {
+    font-size: 30px;
+    color: black;
+    padding:5px;
+}
+
+.icon-links {
+    margin: 30px;
+    text-align: center;
+}
+
+
+.icon-links a:hover {
+    border-bottom: 2px solid white;
+    color: white;
 }
 
 @media screen and (max-width: 390px) {
