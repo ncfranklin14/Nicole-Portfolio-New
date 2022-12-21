@@ -1,8 +1,12 @@
 
 .portfolio {
     background-color: #40916c;
-    font-family: 'Anton', sans-serif;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 Header {
@@ -19,18 +23,6 @@ Header {
     margin-right: 450px;
   }
 
-.nav-item {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-}
-.nav{
-    background-color: #78c6a3;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around !important;
-    align-items: center;
-    padding-right: 30px;
-}
 .contactIcon {
     display: flex;
     flex-direction: row;
@@ -39,7 +31,7 @@ Header {
 }
 
 .footer {
-    padding: 8rem !important;
+    padding: 6rem !important;
 	animation: gradient 15s ease infinite;
 	display: flex;
 	justify-content: center;

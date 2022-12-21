@@ -20,7 +20,6 @@
     text-align: center;
     margin-bottom: 40px;
     text-decoration: underline;
-    height: 40px;
     width: 55rem;
     margin-left: 17%;
     border: 5px solid #266150;
@@ -28,8 +27,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     font-size: 30px;
-    padding-bottom: 4%;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 
@@ -49,8 +47,7 @@
         width: 80%;
         margin-left: 10%;
         margin-right: 5%;
-        padding-bottom: 5px;
-        padding-top: 1%;
+        padding: 5px;
     }
 
     .skills {
