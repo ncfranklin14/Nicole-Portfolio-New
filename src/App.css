@@ -38,7 +38,7 @@ Header {
 	align-content: center;
 	text-align: center;
     height: 30px;
-    background-color: #40916c !important;
+    background-color:linear-gradient(#40916c, #91e5d1) !important;
 }
 
 #contact-links {
@@ -67,7 +67,7 @@ Header {
 
 @media screen and (max-width: 390px) {
 .footer {
-    background-color: #40916c !important;
+    background-color:linear-gradient(#40916c, #91e5d1) !important;
     display: flex;
     flex-direction: row;
 	justify-content: center;
