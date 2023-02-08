@@ -1,6 +1,7 @@
 .aboutContainer {
     background-color: #40916c;
     margin-bottom: 50px;
+    margin-top: 200px;
 }
 
 .profile-pic {
@@ -19,19 +20,62 @@
     margin-top: 200px;
     text-decoration: underline;
     border: 5px solid #266150;
-    background-color: #266150;
+    /* background-color: #266150 !important; */
     border-radius: 10px;
     width: 55rem;
     margin-left: 17%;
     margin-bottom: 50px;
 }
 
+.accordion-button {
+    background-color: #266150 !important;
+    font-size: 30px !important;
+    text-decoration: underline !important;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.accordion-button.collapsed {
+    color: white !important;
+}
+.accordion-header {
+    justify-content: center !important;
+    text-align: center !important;
+    margin-left: 340px !important;
+    border: #266150 !important;
+}
+.accordion-item {
+    background-color: #266150 !important;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    color: white !important;
+    border: #266150 !important;
+}
+
+.accordion-body {
+    padding-bottom: 25px !important;
+    padding-top: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.accordion {
+    width: 56rem !important;
+    justify-content: center !important;
+    text-align: center !important;
+    /* display: flex !important;
+    flex-direction: row !important; */
+    padding: 10px !important;
+    margin-left: 240px !important;
+    border-radius: 10px !important;
+}
+
 .par {
-    justify-content: center;
-    margin-top: 50px;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: center !important;
+    margin-top: 50px !important;
+    text-align: center !important;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
 }
 
 @media screen and (max-width: 390px) {

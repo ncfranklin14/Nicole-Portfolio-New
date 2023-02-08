@@ -1,6 +1,8 @@
 import React from 'react';
 import './about.css';
 import profileImage from '../../assets/profileImage.jpeg'
+import { Accordion } from 'react-bootstrap';
+
 
 export default function About() {
     const image = {
@@ -8,13 +10,17 @@ export default function About() {
     }
     return (
         <div className='aboutContainer'>
-            <h1 className='aboutMe'>About Me</h1>
+            <Accordion classname='aboutMe' defaultActiveKey="0">
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header>About Me</Accordion.Header>
+                    <Accordion.Body className='par'>
+                        Full Stack web developer with a Full Stack Web Development Certificate from the University of Washington. I'm excited about pursuing a role in Full Stack or Frontend web development.
+                        Leveraging a background in Sales, Marketing, and Account Management for technology companies. I bring a unique perspective by having a diverse background on the business side and want to continue a career working on the development and functional side of products.
+                        I'm passionate about exploring the outdoors and spend my free time enjoying the mountains.
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
             <img className='profile-pic' src={image.image} alt='' />
-            <p className='par'>
-            Full Stack web developer with a Full Stack Web Development Certificate from the University of Washington. I'm excited about pursuing a role in Full Stack or Frontend web development.
-            Leveraging a background in Sales, Marketing, and Account Management for technology companies. I bring a unique perspective by having a diverse background on the business side and want to continue a career working on the development and functional side of products. 
-            I'm passionate about exploring the outdoors and spend my free time enjoying the mountains.
-            </p>
         </div>
     );
 }
