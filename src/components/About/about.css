@@ -97,7 +97,7 @@
         margin-right: 6%;
         text-decoration: underline;
         border: 5px solid #266150;
-        width: 100%;
+        width: 50%;
         height: 50px;
         padding: 5px;
     }
@@ -114,7 +114,33 @@
         width: 200px;
         border-radius: 50%;
         margin-left: 20%;
-        margin-top: 5%;
+        margin-top: 10%;
+    }
+
+    .accordion {
+        width: 1rem !important;
+        height: 50px !important;
+        justify-content: center !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: row !important; 
+        flex-wrap: wrap !important;
+        border-radius: 10px !important;
+        margin-left: 10% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .accordion-item .accordion-header .accordion-button{
+        width: 15rem !important;
+        height: 50px !important;
+        margin-right: 10% !important;
+        padding-right: 10px !important;
+    }
+
+    .accordion-header {
+        padding-right: 50px !important;
     }
 
 }
