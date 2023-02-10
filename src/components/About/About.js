@@ -10,7 +10,7 @@ export default function About() {
     }
     return (
         <div className='aboutContainer'>
-            <Accordion classname='aboutMe' defaultActiveKey="0">
+            <Accordion className='aboutMe' defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>About Me</Accordion.Header>
                     <Accordion.Body className='par'>
