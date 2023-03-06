@@ -10,26 +10,11 @@
     margin-left: 39%;
 }
 
-/* .aboutMe {
-    font-size: 30px;
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-top: 200px;
-    border: 5px solid #266150;
-    border-radius: 10px;
-    width: 55rem;
-    margin-left: 17%;
-    margin-bottom: 50px;
-} */
-
 .accordion-button {
     background-color: #266150 !important;
     font-size: 30px !important;
     text-decoration: underline !important;
-    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     color: white !important;
     box-shadow: none !important;
 }
@@ -40,14 +25,15 @@
     margin-left: 340px !important;
     border: #266150 !important;
 }
+
 .accordion-item {
     background-color: #266150 !important;
-    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     color: white !important;
     border: #266150 !important;
     font-size: medium !important;
     text-decoration: none !important;
-    
+
 }
 
 .accordion-body {
@@ -72,25 +58,12 @@
     .aboutContainer {
         display: flex;
         flex-direction: column;
-        margin-left: 10%;
+        justify-content: center !important;
+        margin-left: 2%;
         margin-right: 10%;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
     }
-
-    /* .aboutMe {
-        font-size: 30px;
-        justify-content: center;
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        margin: 2%;
-        margin-top: 20px;
-        margin-right: 6%;
-        text-decoration: underline;
-        border: 5px solid #266150;
-        width: 50%;
-        height: 50px;
-        padding: 5px;
-    } */
 
     .par {
         justify-content: center;
@@ -113,7 +86,7 @@
         justify-content: space-evenly !important;
         text-align: center !important;
         display: flex !important;
-        flex-direction: row !important; 
+        flex-direction: row !important;
         flex-wrap: wrap !important;
         border-radius: 10px !important;
         margin-left: 10% !important;
@@ -122,10 +95,17 @@
         padding-bottom: 100px !important;
     }
 
-    .accordion-item .accordion-header .accordion-button{
+    .accordion-item .accordion-button {
         width: 15rem !important;
         height: 50px !important;
-        padding-right: 5px !important;
+        padding-right: 5% !important;
+    }
+
+
+    .accordion-header {
+        width: 15rem !important;
+        margin-left: 50% !important;
+        padding-left: 10% !important;
     }
 
 }
