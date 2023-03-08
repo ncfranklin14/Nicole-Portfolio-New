@@ -94,7 +94,10 @@
         padding-right: 15% !important;
     }
 
-
+    .accordion-item {
+        font-size: 1.2rem !important;
+    }
+    
     .accordion-header {
         width: 15rem !important;
         margin-left: 50% !important;
@@ -102,6 +105,7 @@
     }
 
     .accordion-collapse {
+        display: block;
         overflow-y: auto;
         position: relative;
         height: 250px;
