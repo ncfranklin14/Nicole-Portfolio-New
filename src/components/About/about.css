@@ -32,7 +32,7 @@
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
         margin-left: 2%;
         margin-right: 10%;
         margin-top: 50px !important;
@@ -44,6 +44,7 @@
         border-radius: 50%;
         margin-left: 2%;
         margin-top: 20%;
+        padding-bottom: 20px;
     }
 
     .par {
@@ -52,6 +53,10 @@
         text-align: center;
         margin-left: 4%;
         padding-right: 5%;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
     }
 
 }
