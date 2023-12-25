@@ -103,8 +103,9 @@ Header {
   }
   
   Header h1 {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    width: 100vw;
   }
 
 }
