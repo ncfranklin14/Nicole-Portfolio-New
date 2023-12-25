@@ -1,6 +1,6 @@
 
 .resumeContainer {
-    background-color: #40916c;
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,39 +16,8 @@
     justify-content: center;
 }
 
-.resume-title {
-    text-align: center;
-    margin-bottom: 40px;
-    text-decoration: underline;
-    width: 55rem;
-    margin-left: 17%;
-    border: 5px solid #266150;
-    background-color:#266150;
-    box-sizing: border-box;
-    border-radius: 10px;
-    font-size: 30px;
-    padding: 10px;
-}
-
 
 @media screen and (max-width: 390px) {
-
-    .resume-title {
-        font-size: 30px;
-        justify-content: center;
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        margin: 2%;
-        margin-top: 5px;
-        text-decoration: underline;
-        border: 5px solid #266150;
-        height: 50px;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 5%;
-        padding: 5px;
-    }
 
     .skills {
         margin-bottom: 10%;

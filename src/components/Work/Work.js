@@ -8,6 +8,7 @@ import Socializer from '../../assets/Socializer.png'
 import Planter from '../../assets/Planter.png'
 import Planner from '../../assets/Planner.png'
 import MovementMapper from "../../assets/MovementMapper.png"
+import Bloodworks from "../../assets/Bloodworks.png"
 import { AiOutlineGithub, AiOutlineDesktop } from "react-icons/ai";
 
 export default function Work() {
@@ -23,18 +24,10 @@ export default function Work() {
     {
         title: ' The Planter',
         image: Planter,
-        description: 'Communal blog forum used to crowdsource names for plants',
+        description: 'Crowdsourcing blog for plants',
         tools: 'Handlebars, MySQL, Cloudinary, JavaScript, NodeJS',
         deployed: 'https://secret-waters-02737.herokuapp.com/login',
         github: 'https://github.com/ncfranklin14/the-planter'
-    },
-    {
-        title: 'Workday Planner',
-        image: Planner,
-        description: 'App used to add events to the daily planner and help manage time effectively',
-        tools: 'HTLM5, JavaScript, CSS',
-        deployed: 'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
-        github: 'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
     },
     {
         title: 'Movement Mapper',
@@ -43,14 +36,26 @@ export default function Work() {
         tools: 'React, Express, MySQL, bycrypt',
         deployed: 'https://movementmapper-front.herokuapp.com/',
         github: 'https://github.com/saghar-b/Movement-Mapper-Frontend'
+    },
+    // {
+    //     title: 'Workday Planner',
+    //     image: Planner,
+    //     description: 'App used to add events to the daily planner and help manage time effectively',
+    //     tools: 'HTLM5, JavaScript, CSS',
+    //     deployed: 'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
+    //     github: 'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
+    // }
+    {
+        title: 'Bloodworks',
+        image: Bloodworks,
+        description: 'Web Development projects',
+        tools: 'WordPress, HTLM5, JavaScript, CSS',
     }]
     return (
         <Container className='myProjects'>
-            <Row>
+            <Row className='workTitle1'>
                 <Col>
-                    <div className='workTitle1'>
                         <h1 className='workTitle'>Projects</h1>
-                    </div>
                 </Col>
             </Row>
             <Row xs={12} md={8} className="g-6">
@@ -58,8 +63,8 @@ export default function Work() {
                     <Col>
                         <Card className='cards'>
                             <Card.Img variant="top" src={proj.image} />
-                            <Card.Body>
-                                <Card.Title>{proj.title}</Card.Title>
+                            <Card.Body className='card-body'>
+                                <Card.Title className='hide'>{proj.title}</Card.Title>
                                 <Card.Text>
                                     {proj.description}
                                 </Card.Text>
