@@ -33,20 +33,20 @@
         flex-direction: column !important;
         justify-content: center !important;
         flex-wrap: wrap !important;
-        margin-left: 2%;
-        margin-right: 10%;
-        margin-top: 50px !important;
-        margin-bottom: 50px !important;
+        /* margin-left: 2%;
+        margin-right: 10%; */
+        /* margin-top: 50px !important;
+        margin-bottom: 50px !important; */
     }
 
     .profile-pic {
-        width: 200px;
+        /* width: 200px; */
         border-radius: 50%;
-        margin-left: 2%;
-        margin-top: 20%;
+        /* margin-top: 20px; */
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
+        margin: 30px;
     }
 
     .par {
@@ -61,8 +61,10 @@
         flex-wrap: wrap !important;
     }
 
-    .headerAbout {
-        padding-top: 20px;
+  .col {
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
     }
 
 }
