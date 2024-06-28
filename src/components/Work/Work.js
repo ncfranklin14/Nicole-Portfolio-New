@@ -49,7 +49,8 @@ export default function Work() {
         title: 'Bloodworks',
         image: Bloodworks,
         description: 'Web Development projects',
-        tools: 'WordPress, HTLM5, JavaScript, CSS',
+        tools: 'WordPress, JavaScript, HTLM5, CSS',
+        deployed: 'https://www.bloodworksnw.org/',
     }]
     return (
         <Container className='myProjects'>
