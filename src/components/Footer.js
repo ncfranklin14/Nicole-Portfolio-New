@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/N_Franklin_Resume2022.pdf';
+import resume from '../assets/N_Franklin_Resume2024.pdf';
 import { AiOutlineGithub, AiOutlineMail, AiOutlineLinkedin, AiOutlineSolution } from "react-icons/ai";
 
 const Footer = () => (
