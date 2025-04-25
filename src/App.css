@@ -31,7 +31,12 @@ Header {
     padding-left: 50px;
     border-radius: 0px 7px 7px 0px;
     margin-right: 550px;
+    color: white;
   }
+
+  a {
+    text-decoration: none !important;
+}
 
 .contactIcon {
     display: flex;

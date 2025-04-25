@@ -51,6 +51,7 @@ export default function Work() {
         description: 'Web Development projects',
         tools: 'WordPress, JavaScript, HTLM5, CSS',
         deployed: 'https://www.bloodworksnw.org/',
+        github: 'https://ncfportfolio.herokuapp.com/bloodworks'
     }]
     return (
         <Container className='myProjects'>
