@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header';
 import './bloodworks.css'
 import eligibility from '../../assets/eligibility.png'
 import faq from '../../assets/faq.png'
@@ -19,6 +20,8 @@ export default function Bloodworks() {
         image: partner
     }]
     return (
+        <>
+        <Header />
         <div className='moduleWrapper'>
             <div className='moduleImage'>
             {bwProjects.map((item) => (
@@ -26,5 +29,6 @@ export default function Bloodworks() {
             ))}
             </div>
         </div>
+        </>
     );
 }
